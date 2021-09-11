@@ -1,0 +1,40 @@
+#include<stdio.h>
+int main(){
+int x;
+printf("Enter the Number and your Destiny will Choose your Food \n");
+scanf("%d",&x);
+switch(x)
+{
+case 1:
+printf("Food item - Pizza\nPrice - 239 \n");
+break;
+case2:
+printf("Food item - Burger\nPrice - 129 \n");
+break;
+case 3:
+printf("Food item - Pasta\nPrice - 179 \n");
+break;
+case 4:
+printf("Food item - French Fries\nPrice - 99 \n");
+break;
+case 5:
+printf("Food item - Sandwich\nPrice - 149 \n");
+break;
+default:
+printf("Invalid Choice \nEnter any other Number");
+break;
+}
+return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
